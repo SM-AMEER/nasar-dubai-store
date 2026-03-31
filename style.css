@@ -73,6 +73,11 @@ button:hover {
     font-size: 14px;
 }
 
+.low-stock {
+    color: red;
+    font-weight: bold;
+}
+
 /* Mobile Optimization */
 @media (max-width: 480px) {
     h1 {
