@@ -2,33 +2,88 @@ body {
     font-family: Arial;
     background: #0f172a;
     color: white;
+    margin: 0;
+    padding: 10px;
     text-align: center;
 }
 
+/* Title */
+h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+/* Container */
 .container {
     background: #1e293b;
     padding: 20px;
-    border-radius: 10px;
-    width: 300px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
     margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+/* Inputs */
 input {
     display: block;
-    width: 90%;
-    margin: 10px auto;
-    padding: 8px;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
 }
 
+/* Buttons */
 button {
-    padding: 10px;
-    margin: 5px;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    background: #38bdf8;
+    color: black;
+    font-weight: bold;
     cursor: pointer;
 }
 
+/* Item Cards */
 .item {
     background: #334155;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 12px;
+    margin-top: 12px;
     border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Small buttons inside items */
+.item button {
+    width: auto;
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+/* Mobile Optimization */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    input {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 10px;
+    }
 }
