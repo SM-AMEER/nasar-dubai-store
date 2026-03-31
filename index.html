@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NASAR DUBAI STORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📦 My Shop Stock</h1>
+
+<div class="container">
+<input type="text" id="itemName" placeholder="Product name (Oil)">
+<input type="text" id="itemSize" placeholder="Size (40ml / 120ml)">
+<input type="number" id="itemQty" placeholder="Quantity">
+<input type="number" id="alertLevel" placeholder="Alert level">
+<input type="text" id="search" placeholder="Search product..." onkeyup="searchItem()">
+
+    <button onclick="addItem()">Add Item</button>
+
+    <h2>Items:</h2>
+    <div id="list"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+<button onclick="exportData()">📤 Backup Data</button>
+<input type="file" id="importFile" onchange="importData(event)">
+</body>
+</html>
