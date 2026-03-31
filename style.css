@@ -43,12 +43,17 @@ button {
     padding: 12px;
     margin-top: 10px;
     font-size: 16px;
-    border-radius: 6px;
+    border-radius: 8px;
     border: none;
-    background: #38bdf8;
+    background: linear-gradient(90deg, #38bdf8, #22d3ee);
     color: black;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
 }
 
 /* Item Cards */
