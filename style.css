@@ -35,6 +35,7 @@ input {
     border-radius: 6px;
     border: none;
     outline: none;
+    box-sizing: border-box;
 }
 
 /* Buttons */
