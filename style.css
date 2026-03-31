@@ -17,7 +17,7 @@ h1 {
 .container {
     background: rgba(30, 41, 59, 0.7);
     backdrop-filter: blur(10px);
-    padding: 25px;
+    padding: 25px 20px;
     border-radius: 15px;
     width: 100%;
     max-width: 400px;
@@ -29,10 +29,10 @@ h1 {
 input {
     display: block;
     width: 100%;
-    margin: 10px 0;
-    padding: 12px 0;
+    margin: 12px 0;
+    padding: 12px 16px;
     font-size: 16px;
-    border-radius: 6px;
+    border-radius: 8px;
     border: none;
     outline: none;
     box-sizing: border-box;
