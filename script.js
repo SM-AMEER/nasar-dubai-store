@@ -103,3 +103,7 @@ function importData(event) {
 
     reader.readAsText(file);
 }
+
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js');
+}
